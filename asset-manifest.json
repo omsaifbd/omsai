@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/omsai/static/css/main.70f30a7c.css",
+    "main.js": "/omsai/static/js/main.f8f0fa44.js",
+    "static/media/img7.svg": "/omsai/static/media/img7.48586c545926bcbe04c8.svg",
+    "static/media/img3.svg": "/omsai/static/media/img3.9f5b7471689303426e05.svg",
+    "static/media/img1.svg": "/omsai/static/media/img1.decd1310d046dc6efc61.svg",
+    "static/media/img5.svg": "/omsai/static/media/img5.578d4b4838ebc4ff9fa7.svg",
+    "static/media/img8.svg": "/omsai/static/media/img8.99736a04f59f006bf015.svg",
+    "static/media/img6.svg": "/omsai/static/media/img6.2c52dc3ace7810749ada.svg",
+    "static/media/img4.svg": "/omsai/static/media/img4.49733fed5e52cedc64aa.svg",
+    "static/media/img2.svg": "/omsai/static/media/img2.eeec60e4d17bd9951ab8.svg",
+    "index.html": "/omsai/index.html",
+    "main.70f30a7c.css.map": "/omsai/static/css/main.70f30a7c.css.map",
+    "main.f8f0fa44.js.map": "/omsai/static/js/main.f8f0fa44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70f30a7c.css",
+    "static/js/main.f8f0fa44.js"
+  ]
+}
