@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/omsai/static/css/main.21a9811c.css",
-    "main.js": "/omsai/static/js/main.9ad24342.js",
+    "main.css": "/omsai/static/css/main.90b4efec.css",
+    "main.js": "/omsai/static/js/main.5caf6763.js",
     "static/media/Master Tally.png": "/omsai/static/media/Master Tally.47ab6719e47db92a5eb6.png",
     "static/media/Web Designing.png": "/omsai/static/media/Web Designing.79c83f8672b8b72e223a.png",
     "static/media/Tally.png": "/omsai/static/media/Tally.4f28c02756b3a083f317.png",
@@ -29,11 +29,11 @@
     "static/media/img4.svg": "/omsai/static/media/img4.49733fed5e52cedc64aa.svg",
     "static/media/img2.svg": "/omsai/static/media/img2.eeec60e4d17bd9951ab8.svg",
     "index.html": "/omsai/index.html",
-    "main.21a9811c.css.map": "/omsai/static/css/main.21a9811c.css.map",
-    "main.9ad24342.js.map": "/omsai/static/js/main.9ad24342.js.map"
+    "main.90b4efec.css.map": "/omsai/static/css/main.90b4efec.css.map",
+    "main.5caf6763.js.map": "/omsai/static/js/main.5caf6763.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a9811c.css",
-    "static/js/main.9ad24342.js"
+    "static/css/main.90b4efec.css",
+    "static/js/main.5caf6763.js"
   ]
 }
