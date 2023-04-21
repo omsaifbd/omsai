@@ -154,7 +154,6 @@ a{
 
 .coursecard img{
   width: 100%;
-  border: 1px solid green;
 }
 
 /* course page*********************************** */
@@ -170,10 +169,12 @@ a{
 }
 
 .corecard{
-  background-color: #05386B;
+  background-color: #08f17d;
   padding: 20px;
   border-radius: 20px;
   font-size: 30px;
+  color: #05386B;
+  font-weight: bolder;
 }
 .corecard img{
   width: 100%;
