@@ -1,6 +1,6 @@
 {
-  "homepage": "http://omsaifbd.github.io/omsaifbd.github.io",
   "name": "omsai",
+  "homepage": "http://omsaifbd.github.io/omsai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

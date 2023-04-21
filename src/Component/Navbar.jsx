@@ -12,7 +12,7 @@ import { SiCoursera } from "react-icons/si";
 import { MdContactPage } from "react-icons/md";
 export default function Navbar() {
   const links = [
-    { path: "/", title: "Home", icon: <FaHome /> },
+    { path: "/omsai", title: "Home", icon: <FaHome /> },
     { path: "/students", title: "Students", icon: <FaUserTie /> },
     { path: "/certify", title: "Certify", icon: <FaUserGraduate /> },
     { path: "/courses", title: "Courses", icon: <SiCoursera /> },

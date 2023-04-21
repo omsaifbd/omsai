@@ -38,9 +38,18 @@ export default function Students() {
 
   return (
     <div className="students commonbg">
-      
-      {student.map((el) => <StudentCards key={el.StudentId} avatar={el.image} studentId={el.StudentId} name={el.Name} qualification={el.Qualification} course={el.Course} />)}
-      
+      <div className="studentdata fixbg ">
+        {student.map((el) => (
+          <StudentCards
+            key={el.StudentId}
+            avatar={el.image}
+            studentId={el.StudentId}
+            name={el.Name}
+            qualification={el.Qualification}
+            course={el.Course}
+          />
+        ))}
+      </div>
     </div>
   );
 }

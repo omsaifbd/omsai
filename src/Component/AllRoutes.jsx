@@ -12,7 +12,7 @@ import NotFoundPage from '../Pages/NotFoundPage'
 export default function AllRoutes() {
   return (
       <Routes >
-          <Route path='/' element={<Home />}></Route>
+          <Route path='/omsai' element={<Home />}></Route>
           <Route path='/students' element={<Students/>}></Route>
           <Route path='/certify' element={<Certify/>}></Route>
           <Route path='/courses' element={<Courses/>}></Route>
