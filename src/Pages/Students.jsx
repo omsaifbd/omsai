@@ -35,7 +35,7 @@ export default function Students() {
   useEffect(() => {
     showData();
    
-  }, [student]);
+  }, []);
  
   
   return (

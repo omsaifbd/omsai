@@ -34,7 +34,7 @@ export default function Quiz() {
 
   useEffect(() => {
     showData();
-  },[quizData])
+  },[])
 
   return (
     <div className="quiz commonbg">
