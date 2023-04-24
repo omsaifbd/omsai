@@ -16,7 +16,7 @@ export default function Navbar() {
     { path: "/students", title: "Students", icon: <FaUserTie /> },
     { path: "/certify", title: "Certify", icon: <FaUserGraduate /> },
     { path: "/courses", title: "Courses", icon: <SiCoursera /> },
-    { path: "/gallary", title: "Gallary", icon: <RiGalleryFill/> },
+    { path: "/quiz", title: "Quiz", icon: <RiGalleryFill/> },
     { path: "/about", title: "About", icon: <FaBriefcase /> },
     { path: "/contact", title: "Contact", icon: <MdContactPage /> },
   ];

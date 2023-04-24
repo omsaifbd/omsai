@@ -1,23 +1,23 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-.container{
+.container {
   display: grid;
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.sidebar{
+.sidebar {
   background-color: #5cdb94;
-  color: #05386B;
+  color: #05386b;
   height: 100vh;
   padding: 20px 5px;
   z-index: 9;
 }
 
-.sidebar a{
-  color: #05386B;
+.sidebar a {
+  color: #05386b;
   display: flex;
   gap: 25px;
   font-size: 20px;
@@ -27,39 +27,36 @@
   transition: all 0.5s;
 }
 
-.sidebar a:hover{
+.sidebar a:hover {
   background-color: #08f17d;
 }
 
-.top_section{
-  color: #05386B;
+.top_section {
+  color: #05386b;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   font-size: 15px;
-   padding: 10px 10px;
+  padding: 10px 10px;
 }
-.bars{
+.bars {
   justify-content: center;
   font-size: 25px;
- 
 }
 
-.icon{
+.icon {
   display: flex;
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   margin: 10px auto;
 }
-.active{
-    background: #08f17d;
+.active {
+  background: #08f17d;
 }
-
-
 
 /* main styling ********************************* */
 
@@ -70,137 +67,165 @@ a{
   background-attachment: fixed;
 }
 
-
-
-.home{
+.home {
   background: url(./images/img2.svg);
- 
 }
 
-.students{
+.students {
   background: url(./images/img1.svg);
-  
-
 }
 
-.certify{
+.certify {
   background: url(./images/img3.svg);
 }
 
-.course{
+.course {
   background: url(./images/img4.svg);
 }
 
-.gallary{
+.quiz {
   background: url(./images/img5.svg);
-
 }
 
-.contact{
+.contact {
   background: url(./images/img6.svg);
 }
 
-.about{
+.about {
   background: url(./images/img7.svg);
-
 }
 
-.notfoound{
+.notfoound {
   background: url(./images/img8.svg);
-
 }
 
 
-/* student page *********************************************************** */
-
-.studentdata{
+.studentdata {
   background: url(./images/img1.svg);
   background-attachment: fixed;
-  display: grid;
-  row-gap: 10px;
+  display: flex;
+  gap: 30px;
   padding: 30px;
+  flex-wrap: wrap;
+   justify-content: space-around;
 }
 
-.studentdata >div{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #25e97ac2;
+.studentdata > div {
+  display: grid;
+  background-color: #25e97afb;
   font-size: 20px;
-  border-radius: 10px;
-  color: #05386B;
-  padding: 10px 30px;
-  flex-wrap: wrap;
-  column-gap: 30px;
+  border-radius: 20px;
+  color: #05386b;
+  width: 300px;
+  box-shadow: rgb(8, 163, 112) 0px 20px 30px -10px;
+ 
+}
+
+.studentdata > div:hover{
+  transition: all 0.5s;
+}
+
+.studentdata img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 300px;
+}
+
+.studentCard > div {
+  height: 300px;
+}
+.studentCard > :last-child{
+  padding: 0px 10px;
+  height: 220px;
+}
+
+.loader{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.loader > img{
+  width: 20%;
+  
+}
+/* Home page ******************************************* */
+
+.coursecard {
+  background: url(./images/img2.svg);
+  background-attachment: fixed;
+  border-radius: 20px;
   
 }
 
-.students img{
-  width: 50px;
-  border-radius: 50%;
-}
-
-
-
-/* Home page ******************************************* */
-
-.coursecard{
- display: flex;
- flex-wrap: wrap;
- background: url(./images/img2.svg);
- background-attachment: fixed;
-
-}
-
-.coursecard img{
+.coursecard img {
   width: 100%;
 }
 
 /* course page*********************************** */
 
-.coreouter{
-  display: grid;
+.coreouter {
+  display: flex;
+  flex-wrap: wrap;
   background: url(./images/img4.svg);
   background-attachment: fixed;
   padding: 30px;
   gap: 30px;
   text-align: center;
   color: white;
+  justify-content: space-around;
 }
 
-.corecard{
+.corecard {
   background-color: #08f17d;
   padding: 20px;
   border-radius: 20px;
   font-size: 30px;
-  color: #05386B;
+  color: #05386b;
   font-weight: bolder;
-}
-.corecard img{
-  width: 100%;
-  border-radius: 20px;
+  width: 300px;
+  box-shadow: rgb(8, 163, 112) 0px 20px 30px -10px;
   
 }
+.corecard img {
+  width: 100%;
+  border-radius: 20px;
+}
 
+/* quiz settings****************************** */
+.quiz{
+  
+  padding: 20px;
+}
 
+.quizouter{
+  display: flex;
+  flex-wrap: wrap;
+  background: url(./images/img5.svg);
+  background-attachment: fixed;
+  width: 100%;
+  justify-content: space-around;
+  gap: 20px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.quizcard{
+  display: grid;
+  background-color: #08f17d;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #05386b;
+  font-weight: bolder;
+  width: 300px;
+  padding: 0px 20px;
+  text-align: center;
+  box-shadow: rgb(8, 163, 112) 0px 20px 30px -10px;
+}
 
 /* background settings************************************* */
-.commonbg{
- width: 100%;
+.commonbg {
+  width: 100%;
   height: 100vh;
   box-sizing: border-box;
   background-position: center;
@@ -209,10 +234,12 @@ a{
   background-repeat: no-repeat;
   background-color: transparent;
 }
-.fixbg{
-   background-position: center;
+.fixbg {
+  background-position: center;
   background-size: contain;
-  
   background-repeat: no-repeat;
   background-color: transparent;
 }
+
+
+
